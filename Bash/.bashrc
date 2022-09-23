@@ -27,8 +27,8 @@ fi
 ##### My Custom Aliases #####
 alias cdstorage="cd /media/storage"
 alias vim="vimx"
-alias handlexrandr="python3 /media/storage/Documents/os-setup/handle-xrandr/xrandrsetup.py"
-alias copyconfigs="python3 /media/storage/Documents/os-setup/handle-configs/copy-configs.py"
+alias handlexrandr="python3 /media/storage/Documents/os-setup/handle-xrandr/xrandr-setup.py"
+alias copyconfigs="python3 /media/storage/Documents/os-setup/copy-configs/copy-configs.py"
 alias pfcalculator="python3 /media/storage/Documents/os-setup/pf-calculator/pf-calculator.py"
 #############################
 
