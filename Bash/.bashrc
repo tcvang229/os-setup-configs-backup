@@ -24,10 +24,6 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
-##### My Custom Logic  #####
-export EDITOR=vim
-#############################
-
 ##### My Custom Aliases #####
 alias cdstorage="cd /mnt/storage"
 alias handlexrandr="python3 /mnt/storage/Documents/os-setup/handle-xrandr/xrandr-setup.py"
