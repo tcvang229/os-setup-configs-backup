@@ -6,4 +6,4 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
-python3 /media/storage/Documents/os-setup/handle-xrandr/xrandr-setup.py
+python3 /mnt/storage/Documents/os-setup/handle-xrandr/xrandr-setup.py

@@ -24,12 +24,15 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
+##### My Custom Logic  #####
+export EDITOR=vim
+#############################
+
 ##### My Custom Aliases #####
-alias cdstorage="cd /media/storage"
-alias vim="vimx"
-alias handlexrandr="python3 /media/storage/Documents/os-setup/handle-xrandr/xrandr-setup.py"
-alias copyconfigs="python3 /media/storage/Documents/os-setup/copy-configs/copy-configs.py"
-alias pfcalculator="python3 /media/storage/Documents/os-setup/pf-calculator/pf-calculator.py"
+alias cdstorage="cd /mnt/storage"
+alias handlexrandr="python3 /mnt/storage/Documents/os-setup/handle-xrandr/xrandr-setup.py"
+alias copyconfigs="python3 /mnt/storage/Documents/os-setup/copy-configs/copy-configs.py"
+alias pfcalculator="python3 /mnt/storage/Documents/os-setup/pf-calculator/pf-calculator.py"
 #############################
 
 unset rc
