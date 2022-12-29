@@ -181,6 +181,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+#############################
+# Custom Bindings Variables #
+#############################
+bindsym $mod+F2 exec xbacklight -dec 5
+bindsym $mod+F3 exec xbacklight -inc 5
+
+
 ###################
 # Color Variables #
 ###################
